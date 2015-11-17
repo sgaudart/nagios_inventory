@@ -7,12 +7,14 @@ CENTREON REQUIRED : show easily the objects of Centreon and the relation between
 
 ## Options
 
+```erb
 nagios_inventory.pl --show <th,ts,[freq,cmd,args,macros,plugin,url] | host,service,[freq,cmd,args,macros,plugin,url]>
                     [--csv <split chr>]
                     [--verbose]
 th = Host Template
 ts = Service Template
 option --csv is not implemented
+```
 
 ## Examples 
 
@@ -36,8 +38,11 @@ SHOW FIELDS : th,ts,cmd,args
     TS: TS_SYS_LINUX_CENTOS-5.9_FILESYSTEM_/tmp_USAGE
    CMD: check_NRPE_Linux_MountFS_Usage
   ARGS: /tmp!90!95
+  
+...etc
+```
 
-
+```erb
 ./nagios_inventory.pl --show th=ORACLE,ts,cmd,args
 SHOW FIELDS : th=ORACLE,ts,cmd,args
 *************************** 1. row ***************************
@@ -58,4 +63,6 @@ SHOW FIELDS : th=ORACLE,ts,cmd,args
    CMD: check_NRPE_Linux_Proc_status
   ARGS: 0:1000 0:2000 LOCAL=NO
 
+...etc
+```
 
