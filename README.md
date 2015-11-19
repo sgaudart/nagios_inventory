@@ -24,16 +24,11 @@ SHOW FIELDS : th,ts,cmd,args
 *************************** 1. row ***************************
     TH: TH_OPT_UNIX_AIX
     TS: TS_OPT_UNIX_AIX_PROCESS_ntp_STATUS
-   CMD: check_NRPE_Linux_Proc_status
+   CMD: check_nrpe_unix_process_if-started_STATUS
+  ARGS: 1:2!1:2!ntp
   ARGS:
 
 *************************** 2. row ***************************
-    TH: TH_OPT_UNIX_AIX
-    TS: TS_OPT_UNIX_AIX_PROCESS_ntp2_STATUS
-   CMD: check_NRPE_Linux_Proc_status
-  ARGS:
-
-*************************** 3. row ***************************
     TH: TH_SYS_LINUX_CENTOS_5.9
     TS: TS_SYS_LINUX_CENTOS-5.9_FILESYSTEM_/tmp_USAGE
    CMD: check_NRPE_Linux_MountFS_Usage
