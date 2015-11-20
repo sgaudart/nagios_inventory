@@ -26,7 +26,6 @@ SHOW FIELDS : th,ts,cmd,args
     TS: TS_OPT_UNIX_AIX_PROCESS_ntp_STATUS
    CMD: check_nrpe_unix_process_if-started_STATUS
   ARGS: 1:2!1:2!ntp
-  ARGS:
 
 *************************** 2. row ***************************
     TH: TH_SYS_LINUX_CENTOS_5.9
