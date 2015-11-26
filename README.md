@@ -1,7 +1,7 @@
 # nagios_inventory
-CENTREON REQUIRED : show easily the objects of Centreon and the relation between us.
+CENTREON REQUIRED : show easily the objects of Nagios (or Centreon) and the relation between us.
 
-The files index.php & nagios_inventory.php allow you to board the script nagios_inventory.pl in web mode.
+The files index.php & nagios_inventory.php allow you to board the script nagios_inventory.pl in web mode. <br>
 You must declare such a new alias in apache server (eg http: // nagios_server / inventory)
 
 ## Requirement
