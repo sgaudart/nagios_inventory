@@ -11,12 +11,10 @@ You must declare such a new alias in apache server (eg http: // nagios_server / 
 ## Options
 
 ```erb
-nagios_inventory.pl --show <th,ts,[freq,cmd,args,macros,plugin,url] | host,service,[freq,cmd,args,macros,plugin,url]>
-                    [--csv <split chr>]
+nagios_inventory.pl --show <th,ts,[freq,cmd,args,macros,plugin,url] | host,service,[ts,freq,cmd,args,macros,plugin,url]>
                     [--verbose]
 th = Host Template
 ts = Service Template
-option --csv is not implemented
 ```
 
 ## Examples 
