@@ -4,7 +4,7 @@
  </head>
  <body>
 
- <font face="Courier New" size="2">
+ <font face="Courier New" size="2" style="white-space: pre">
  <?php
 
 $option=$_POST['show'];
@@ -18,9 +18,6 @@ echo $valeur."<br>";
 
 ?>
 
-
-
-?>
 </font>
 
  </body>
